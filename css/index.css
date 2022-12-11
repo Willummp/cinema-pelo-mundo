@@ -4,10 +4,10 @@ html body {
   margin: 0;
   display: flex;
   flex-direction: column;
+
 }
 
 main {
-
   display: flex;
   overflow: hidden;
 }
@@ -27,7 +27,6 @@ main {
 .texto1 #cinema_title {
   text-align: center;
   font-size: 64px;
-  margin-top: 4rem;
   font-family: 'SF Pro Display';
   font-weight: 800;
 }
@@ -80,19 +79,21 @@ main {
 }
 
 #botao {
+  text-decoration: none;
   align-self: center;
+  text-align: center;
   width: 500px;
   height: 50px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 32px;
-  font-family: 'SF Pro Display';
   font-weight: 700;
-  background-color: rgb(92, 92, 92);
+  background-color: darkblue;
+  border: orange 4px solid;
   border-radius: 10px;
 }
 
 #botao:hover {
-  background-color: #000;
+background-color: rgba(0, 0, 139, 0.6);
   cursor: pointer;
 }
 

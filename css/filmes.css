@@ -1,0 +1,83 @@
+html body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(255, 244, 230);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+  padding-top: 3rem;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+}
+.cartaz {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card_list{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+.card_list img{
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  outline: 1px solid black;
+  border-radius: 6px;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  outline: 1px solid black;
+  border-radius: 6px;
+  width: 300px;
+}
+
+#card #sinopse{
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+
+}
+#card #sinopse h2{
+ font-size: medium;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-align: center;
+}
+
+.tabela{
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+  justify-content: center;
+margin-bottom: 5%;
+}
+.tabela tr td{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  color: white;
+  font-weight: 800;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+#shrek {
+  color: green;
+}
+#pr_filmes{
+  color: red;
+}
